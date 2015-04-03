@@ -8,7 +8,7 @@
 			normal:		{ range: '-1280', href: 'css/style-normal.css', containers: 960, lockViewport: true },
 			narrow:		{ range: '-980', href: 'css/style-narrow.css', containers: '95%', grid: { gutters: 30 } },
 			narrower:	{ range: '-840', href: 'css/style-narrower.css', grid: { gutters: 20, collapse: 1 } },
-			mobile:		{ range: '-1000', href: 'css/style-mobile.css', grid: { gutters: 15, collapse: 2 } }
+			mobile:		{ range: '-640', href: 'css/style-mobile.css', grid: { gutters: 15, collapse: 2 } }
 		}
 	}, {
 		layers: {
@@ -23,11 +23,11 @@
 					orientation: 'vertical',
 					position: 'top-left',
 					side: 'left',
-					width: 275
+					width: '30%'
 				},
 				titleBar: {
 					breakpoints: 'global',
-					height: 44,
+					height: '5%',
 					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span><span class="title" data-action="copyHTML" data-args="logo"></span>',
 					position: 'top-left',
 					side: 'top',
