@@ -23,11 +23,11 @@
 					orientation: 'vertical',
 					position: 'top-left',
 					side: 'left',
-					width: '30%'
+					width: '80%' 
 				},
 				titleBar: {
 					breakpoints: 'global',
-					height: '5%',
+					height: 44,
 					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span><span class="title" data-action="copyHTML" data-args="logo"></span>',
 					position: 'top-left',
 					side: 'top',
