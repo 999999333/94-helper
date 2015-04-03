@@ -11,6 +11,7 @@
 
 	body {
 		background: #0f1116;
+                width: 100%;
 	}
 
 	body, span, input, select, textarea {
@@ -19,6 +20,7 @@
 		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.65em;
+    
 	}
 
 	a {
